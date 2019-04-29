@@ -212,7 +212,7 @@ void humanMove(void)
         printf("You selected an invalid column. Please try again.\n");
         scanf("%d",&option);
     }
-    turn(2,option);
+    turn(2,option-1);
 }
 
 void turn(int player,int column)
